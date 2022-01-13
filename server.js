@@ -28,7 +28,7 @@ server.on("secureConnection", (socket) => {
 })
 
 // Start listening on a specific port and address
-server.listen(PORT, HOST, function () {
+server.listen(PORT, function () {
   console.log("I'm listening at %s, on port %s", HOST, PORT)
 })
 
